@@ -1,33 +1,32 @@
-# Jekyll Base Template
+# Blogger Foo Bar Personal Website Repo (Content)
 
-Basic template to start any static website in [Jekyll](https://jekyllrb.com).
+Its a repo of Blogger _Foo Bar_ personal website repo. He likes to share his website content
+with world.
 
-# How to reach at this point
+# How to get your own blogging website
 
-- Create a jekyll project with its generator and `cd` into it
-```
-jekyll new sitename && cd sitename
-```
+1. Clone it
+  ```
+  git clone https://github.com/bloggerfoobar/bloggerfoobar.github.io myblog
+  ```
+3. Enter into the directory
+  ```
+  cd myblog
+  ```
+3. Replace content of pages like _About_ or blog posts.
+4. Commit your changes
+5. Create GitHub repo as `<your-github-username>.github.io`
+6. Remove existing `origin`
+  ```
+  git remote remove origin
+  ```
 
-- Create the top level folders
-```
-mkdir _include _layouts _sass assets
-```
+7. Add your newly created repo as `origin`
+  ```
+  git remote add origin git@github.com:<your-github-username>/<your-github-username>.github.io.git
+  ```
 
-- Create `assets` subfolders
-```
-mkdir assets/css assets/fonts assets/img assets/js
-```
-
-- Create a basic `.gitignore` file
-```
-echo -e "_site\n.sass-cache\n.jekyll-metadata" > .gitignore
-```
-
-- Run as 
-```
-bundle exec jekyll serve
-```
-
-- Enjoyee!
-
+8. Push the changes
+  ```
+  git push -u origin master
+  ```
