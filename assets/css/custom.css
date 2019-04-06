@@ -1,6 +1,20 @@
+/* Home Starts */
+.site-header .wrapper {
+  height: 60px;
+}
+.site-header .wrapper img {
+  height: 80%;
+  padding: 5px;
+}
+
+/* Home End */
+
 /* Post Starts */
 .post {
   margin: 0 15px 0 15px;
+}
+.post .post-content {
+  margin-top: 1em;
 }
 .post .post-info-wrapper p {
   padding-top: 0px !important;
