@@ -9,9 +9,9 @@ layout: page
       <div class="row">
         <div class="block">
           <div class="post-info-wrapper">
-            <p class="italic">By
-              <span class="bold">{{ page.author }}</span> on
-              <span class="bold">{{ page.date | date: "%b %-d, %Y" }}</span>
+            <p class="font-italic">By
+              <span class="font-weight-bold">{{ page.author }}</span> on
+              <span class="font-weight-bold"><i class="far fa-calendar-alt mr-1"></i>{{ page.date | date: "%b %-d, %Y" }}</span>
               {% include read-time.html
                           content=content
                           bracket_start='('
@@ -32,6 +32,6 @@ layout: page
   </section>
 
   <p class="center-text" style="padding: 30px;">
-    <a href="{{ site.baseurl }}/blogs">Back to blogs list</a>
+    <a href="{{ site.baseurl }}/">Back to blogs list</a>
   </p>
 </div>

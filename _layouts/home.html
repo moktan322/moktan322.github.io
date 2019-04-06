@@ -2,33 +2,44 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+<div class="row home my-md-4">
+  <div class="col-md-3 col-sm-3 col-xs-12 border-secondary border-right text-center">
+    <h1>About Me</h1>
+    <div class="profile-pic">
+      <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Blogger Foo Bar" class="rounded-circle" />
+    </div>
+    <div class="about-brief-info text-muted">
+      I am Foo Bar. This is my blogging platform. Programmers use me as a placeholder name in their Computer programs to
+      name entities such as <i>Variables, Functions, Commands</i> etc to demonstrate concept rather 
+      than the someone's identity.
+    </div>
+    <div class="social-links mt-2">
+      <a href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}"
+        title="{{ site.twitter_username | escape }}" target="_blank">
+        <i class="fab fa-twitter mr-1"></i>
+        {{ site.twitter_username }}
+      </a>
+    </div>
+  </div>
+  <div class="col-md-9 col-sm-9 col-xs-12">
+    <h1 class="text-center">Latest Blogs</h1>
+    {% for post in site.posts %}
+    <div class="blog-post-short mb-2">
+      <h4><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></h4>
+      <p class="post-info-wrapper"><i class="far fa-calendar-alt mr-1"></i>{{ post.date | date_to_long_string }}
+        {% include read-time.html
+                     content=post.content
+                     bracket_start='('
+                     bracket_end=')'
+                     unit='min'
+                     approx='true'
+                     caption='read'
+          %}
+      </p>
+      <p class="text-muted">
+        {{ post.content | strip_html | truncatewords: 50 }}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
 </div>

@@ -1,20 +1,15 @@
-/* Home Starts */
-.site-header .wrapper {
-  height: 60px;
-}
-.site-header .wrapper img {
-  height: 80%;
-  padding: 5px;
-}
-
-/* Home End */
-
-/* Post Starts */
 .post {
-  margin: 0 15px 0 15px;
+  margin-top: 1em;
+
+  .post-header {
+    text-align: center;
+  }
 }
 .post .post-content {
   margin-top: 1em;
+}
+.post-info-wrapper {
+  font-size: 14px;
 }
 .post .post-info-wrapper p {
   padding-top: 0px !important;
@@ -30,7 +25,7 @@
   font-size: 17px;
   line-height: 28px;
 }
-.post #intro .image-wrapper img.circular {
+.post-content .image-wrapper img.circular {
   display: block !important;
   margin: 0 auto !important;
   width: 250px !important;
@@ -40,12 +35,11 @@
   box-shadow: 0px 0px 30px #111;
   width: 100%;
 }
-.post #intro .image-wrapper img.center-image {
+.post-content .image-wrapper img.centered {
   display: block !important;
   margin: 0 auto !important;
   box-shadow: 0px 0px 30px #111 !important;
   padding: 0 !important;
-  width: 60%;
 }
 
 .post-area {
@@ -53,6 +47,15 @@
   width: 100%;
   background-color: white;
   border-bottom: 1px dotted #ddd;
+}
+.blog-post-short {
+  padding: 0.2em 1.5em 0.1em 1.5em;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #111;
+}
+.blog-post-short:hover {
+  box-shadow: 1px 1px 10px #111;
 }
 
 .post-area a:link, .post-area a:visited {
@@ -63,5 +66,3 @@
 .post-area a:hover {
   color: #0D0017;
 }
-
-/* Post end */
