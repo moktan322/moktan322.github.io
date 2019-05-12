@@ -1,0 +1,19 @@
+tagline: Trying to Live Simple Life
+brief_intro: |
+  I am Foo. This is my blogging platform. Programmers use me as a placeholder name in their Computer 
+  programs to name entities such as Variables, Functions, Commands etc to demonstrate concept rather 
+  than the someone's identity.
+roles:
+  - company: Self-Employed
+    designation: Freelancer & Blogger
+    logo: freelancer.jpg
+    link: https://bloggerfoo.github.io
+    intro: |
+      I am a Software Engineer and an avid blogger. I am being used as a placeholder name for computer programs.
+
+journey:
+  - company: Self-Employed
+    from: April 5, 2019
+    to: Present
+    direction: direction-l
+    designation: Software Engineer

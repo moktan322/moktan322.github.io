@@ -1,19 +1,15 @@
-<div class="row my-4">
-  <div class="col-md-12 col-sm-12">
-    <div class="image-wrapper">
-      {% if include.url %}
-      <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
-        {% endif %}
+<div class="image-wrapper mb-2">
+  {% if include.url %}
+  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+    {% endif %}
 
-        <img src="{{ include.img }}" alt="{{ include.title }}" class="{{ include.class }}" />
+    <img src="/assets/img/{{ include.img }}" alt="{{ include.title }}" class="{{ include.class }} img-fluid" />
 
-        {% if include.url %}
-      </a>
-      {% endif %}
+    {% if include.url %}
+  </a>
+  {% endif %}
 
-      {% if include.caption %}
-      <p class="image-caption">Image: {{ include.caption }}</p>
-      {% endif %}
-    </div>
-  </div>
+  {% if include.caption %}
+  <p class="image-caption">Image: {{ include.caption }}</p>
+  {% endif %}
 </div>

@@ -1,0 +1,14 @@
+contacts:
+  twitter:
+    url: https://twitter.com/bloggerfoo/
+    label: Twitter
+    class: fab fa-twitter
+    username: "@bloggerfoo"
+  github:
+    url: https://github.com/bloggerfoo/
+    label: GitHub
+    class: fab fa-github
+  rss:
+    url: /feed.xml
+    label: Subscribe
+    class: fas fa-rss-square  

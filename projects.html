@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<div id="projects-page">
+  <div class="projects-page-body pt-4">
+    <div class="row">
+      {% for project in site.data.projects %}
+        {% include project-outline.html project=project %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,16 +1,25 @@
 ---
 layout: post
-title: Technology Stack used for blogging
-author: foobar
-date:   2019-04-06 08:02:19 +0530
-categories: update
-tags: welcome, jekyll
+title: Technology stack used for blogging template
+date: 2019-04-06 08:02:19 +0530
+categories:
+- blogging
+- jekyll
+tags:
+- ruby
+- jekyll
+- techstack
+status: publish
+type: post
+published: true
+author: Budh Ram Gurung
+thumbnail_path: blog/stack.png
 ---
 
 ## Language
 
 {% include image.html
-           img="/assets/img/ruby-logo.png"
+           img="/ruby-logo.png"
            url="https://www.ruby-lang.org/en/"
            title="Ruby Language"
            class="centered"
@@ -24,7 +33,7 @@ A dynamic, open source programming language with a focus on simplicity and produ
 ## Framework
 
 {% include image.html
-           img="/assets/img/jekyll-logo.png"
+           img="/jekyll-logo.png"
            url="https://jekyllrb.com/"
            title="Jekyll"
            class="centered"
