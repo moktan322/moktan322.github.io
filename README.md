@@ -1,6 +1,6 @@
 # Blogger Foo
 
-Its a repo of Blogger _Foo_ website.
+Repo of _Blogger Foo_ personal website.
 
 # How to get your own blogging website
 
@@ -14,13 +14,13 @@ Its a repo of Blogger _Foo_ website.
   cd myblog
   ```
 
-3. Replace content of following pages as your need:
+3. Replace content of following pages as per your need:
     1. `_config.yml`
     2. `_data/about.yml`
     3. `_data/home.yml`
     4. `_data/projects.yml`
     5. `_posts`: Delete existing and write your own post in 
-       [Jekyll format](https://jekyllrb.com/docs/step-by-step/08-blogging/){:target="_blank"}
+       [Jekyll format](https://jekyllrb.com/docs/step-by-step/08-blogging/)
 
 4. Commit your changes
 5. Create GitHub repo as `<your-github-username>.github.io`
@@ -40,4 +40,4 @@ Its a repo of Blogger _Foo_ website.
   ```
 
 9. Visit your blogging website at `https://<your-github-username>.github.io`.
-10. Enjoyee! :smile:
+10. Enjoyee! :blush:
