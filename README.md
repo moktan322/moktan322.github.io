@@ -41,3 +41,12 @@ Repo of _Blogger Foo_ personal website.
 
 9. Visit your blogging website at `https://<your-github-username>.github.io`.
 10. Enjoyee! :blush:
+
+# Contribution Guidelines
+
+1. Fork the project.
+2. Clone the project at your local machine.
+3. Create a separate branch with short & sweet name of `What feature or fix you are doing`.
+4. Commit the changes.
+5. Git push to your forked repo.
+6. Send a pull request.
