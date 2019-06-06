@@ -7,7 +7,7 @@ layout: default
     <h1>About</h1>
     <div class="profile-pic">
       {% assign site_title = site.title %}
-      {% include image.html 
+      {% include image.html
                  img="/profile_pic.png"
                  title=site_title
                  class="rounded-circle"
@@ -41,7 +41,7 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  
+
     <!-- Projects -->
     {% if site.data.projects.size >= 1 %}
       <div class="home-foss-section alt-bg-color3">
@@ -56,6 +56,6 @@ layout: default
           {% endfor %}
         </div>
       </div>
-    {% endif %}  
+    {% endif %}
   </div>
 </div>
