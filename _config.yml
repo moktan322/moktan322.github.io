@@ -1,18 +1,17 @@
-title: Blogger Foo
-email: bloggerfoobar@yahoo.com
+title: Ashish Moktan
+email: moktana68@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Foo. This is my blogging platform. Programmers use me as a
-  placeholder name in their Computer programs to name entities such as
-  Variables, Functions, Commands etc to demonstrate more concept
-  than the identity.
+  I am Ashish Moktan and currently doing internship from 
+  SYF Nepal. I am pursuing my CSIT from Trinity College Nepal.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 future: true # Show blog post of future date
 
-google_analytics: foo-bar-google-analytics-id # Replace it with your ID starting as UA-
+google_analytics: UA-147239204-1  # Replace it with your ID starting as UA-
 
 paginate: 6
 paginate_path: "/blogs/page:num"
+permalink: "/blogs/:year/:month/:day/:title/"
 
 # Build settings
 markdown: kramdown
