@@ -4,15 +4,50 @@ brief_intro: |
   SYF Nepal. I am pursuing my CSIT from Trinity College Nepal.
 roles:
   - company: Self-Employed
-    designation: Freelancer & Blogger
-    logo: freelancer.jpg
-    link: https://bloggerfoo.github.io
+    designation: Android Developer(Beginner)
+    logo: recipe-app.png
+    link: https://developer.android.com/
     intro: |
-      I am a Software Engineer and an avid blogger. I am being used as a placeholder name for computer programs.
+      Android software development is the process by which new apps are created for devices running the Android OS. Google states that "Android apps can be written using Kotlin, Java, and C++ languages" using the SDK.
+      
+  
+  - company: Self-Employed
+    designation: Student
+    logo: trinity.png
+    link: http://www.trinitycollege.edu.np/
+    intro: |
+      Trinity International College is the leading college in Nepal for +2 and A Levels.
+       It also runs programmes at the graduate and post-graduate levels which is affiliated to Tribhuvan University (TU) like B.Sc. CSIT, BBS, and BA as well as MA (English).  
+  
+  - company: Internship
+    designation: Full Stack Developer
+    logo: syfnepal.png
+    link: https://syfnepal.com/
+    intro: |
+      SYF Nepal is a social enterprise focused on empowering Women & Youth through technology and multimedia services belong to the group of IT and Multimedia professionals. Passion towards these two fields led us to the initiation of the growth of society & nation.
+      
+
 
 journey:
-  - company: Freelancer
-    from: April 5, 2019
+  - company: Greenland School
+    from: January 1 , 2007
+    to: 2013
+    direction: direction-r
+    designation: High School
+  - company: Times College
+    from: April 25, 2013
+    to: 2015
+    direction: direction-l
+    designation: Bachelor
+  - company: Trinity College
+    from: November3, 2015
+    to: Present
+    direction: direction-r
+    designation: Bsc.CSIT
+  - company: SYF Nepal
+    from: September 3, 2019
     to: Present
     direction: direction-l
-    designation: Software Engineer
+    designation: Ruby Training
+  
+  

@@ -1,5 +1,0 @@
-- name: Blogger Foo
-  description: |
-    A blogging theme for Developers
-  url: https://bloggerfoo.github.io
-  src: https://github.com/bloggerfoo/bloggerfoo.github.io
