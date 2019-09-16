@@ -11,14 +11,12 @@ published: true
 author: Ashish Moktan
 thumbnail_path: blog/jekyll.png
 ---
-<b>Journey how I get started with Personal Website!</b> <br>
-My name is Ashish Moktan and  I will share my whole journey of getting started with personal website using Ruby Jekyll Framework.
+<b>Journey how I get started with Personal Website!</b><br>
+My name is Ashish Moktan and today I am going to share my whole journey of getting started with a personal website using Ruby Jekyll Framework.
 
-"A good leader makes his men realize they have more ability than they think they have so that they consistently do better work than they thought they could." As similar my respected CTO Budh Ram Gurung was with me in this whole journey who makes me believe that i can also shift into Ruby Programming Language which was out of my zone at that time. But he guided me so smoothly, instruct me about ruby and make me believe that i can build a ruby project. 
+<b><i>"A good leader makes his men realize they have more ability than they think they have so that they consistently do better work than they thought they could."</i></b> As similar, my respected CTO Budh Ram Gurung was with me in this whole journey and made me easy to shift into Ruby Programming Language which was out of my zone at that time. But he guided me so smoothly, instructed me about ruby and made me believe that I can also build a ruby project.
 
-While learning about Ruby my mentor advice me to go through a Jekyll. Jekyll is not a programming language: simply, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source MIT license.
+While learning about Ruby my mentor advised me to go through a Jekyll. Jekyll is not a programming language: simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open-source MIT license.
 
-Simply i clone with my mentor github where he had already made a scratch platform for the beginners so that beginners could easily build their confidence.
-After that knowing all relationship between the files and folders i code,edit,and updated that version and then finally i am here with my first website where i will write all the blogs about my experience on any new thing,also write a blog about project in which i will get into role.
-
-
+Simply I cloned with my mentor GitHub where he had already made a scratch platform for the beginners so that they could easily build their confidence.
+After getting familiar with jekyll, I started to write code and updated that version and now finally I am here with my first website where I will write all the blogs about my experience on any new thing, as well as blog about the project in which I will get a role.
