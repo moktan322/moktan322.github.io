@@ -32,7 +32,7 @@
             <a href="{{ post.url | prepend: site.url }}" class="blog-btn text-danger">Read more</a>
           </p>
           <p class="post-tags">
-            <i class="fa fa-tags"></i>
+            <i class="fa fa-tags"> <a href=""/blogs/tags/#practice"">practice</a> </i>
             {% for tag in include.post.tags %}
             {% if page.is_tags_page %}
             {% assign tag_url_base = "" %}

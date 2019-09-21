@@ -9,6 +9,7 @@ status: publish
 type: post
 published: true
 author: Ashish Moktan
+tags: practice
 thumbnail_path: blog/jekyll.png
 ---
 <b>Journey how I get started with Personal Website!</b><br>

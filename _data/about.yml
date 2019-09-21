@@ -29,25 +29,28 @@ roles:
 
 
 journey:
-  - company: Greenland School
-    from: January 1 , 2007
-    to: 2013
-    direction: direction-r
-    designation: High School
-  - company: Times College
-    from: April 25, 2013
-    to: 2015
-    direction: direction-l
-    designation: Bachelor
-  - company: Trinity College
-    from: November3, 2015
-    to: Present
-    direction: direction-r
-    designation: Bsc.CSIT
+    
+  
   - company: SYF Nepal
     from: September 3, 2019
     to: Present
     direction: direction-l
     designation: Ruby Training
+  - company: Trinity College
+    from: November3, 2015
+    to: Present
+    direction: direction-r
+    designation: Bsc.CSIT
+  - company: Times College
+    from: April 25, 2013
+    to: 2015
+    direction: direction-l
+    designation: Bachelor
+  - company: Greenland School
+    from: January 1 , 2007
+    to: 2013
+    direction: direction-r
+    designation: High School
+
   
   
